@@ -1,3 +1,8 @@
+// AnalyzeVideo class processes video frames and detects people in the frames.
+// Constructor initializes videolabel for displaying video frames.
+// playVideo method reads video frames, converts them to images, and displays them in videolabel.
+// Mat2BufferedImage method converts Mat to BufferedImage, checks for people, and saves frames if a person is detected.
+
 package com;
 import org.opencv.core.*;
 import java.io.File;

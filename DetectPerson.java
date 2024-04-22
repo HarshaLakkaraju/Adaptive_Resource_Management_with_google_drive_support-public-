@@ -1,5 +1,8 @@
-package com;
+// Summary:
+// The DetectPerson class provides methods for loading a face detection classifier and detecting faces in image files. 
+// It uses a CascadeClassifier to detect faces in images and returns a boolean value indicating whether faces were found in the image.
 
+package com;
 import java.io.File;
 import java.util.ArrayList;
 import org.opencv.core.Core;
@@ -53,6 +56,3 @@ public class DetectPerson {
     }
 }
 
-// Summary:
-// The DetectPerson class provides methods for loading a face detection classifier and detecting faces in image files. 
-// It uses a CascadeClassifier to detect faces in images and returns a boolean value indicating whether faces were found in the image.

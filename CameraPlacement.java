@@ -1,5 +1,9 @@
-package com;
+// Summary:
+// The CameraPlacement class contains methods to randomly place cameras on a grid while ensuring a minimum distance between cameras. 
+// It uses the Simulator class to manage the placement and storage of cameras.
+// The class includes methods to generate random coordinates within a specified range, check distances from existing cameras, and calculate the Euclidean distance between points.
 
+package com;
 import java.util.Random;
 import java.awt.Point;
 import java.util.ArrayList;
@@ -108,7 +112,3 @@ public class CameraPlacement {
     }
 }
 
-// Summary:
-// The CameraPlacement class contains methods to randomly place cameras on a grid while ensuring a minimum distance between cameras. 
-// It uses the Simulator class to manage the placement and storage of cameras.
-// The class includes methods to generate random coordinates within a specified range, check distances from existing cameras, and calculate the Euclidean distance between points.

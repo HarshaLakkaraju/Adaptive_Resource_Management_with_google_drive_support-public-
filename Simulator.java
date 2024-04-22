@@ -1,5 +1,19 @@
-package com;
+/*
+Summary:
+The Simulator class extends the JComponent class and is responsible for rendering the simulation of a network of cameras.
+It contains an ArrayList of Camera objects and various properties related to rendering, such as line styles and colors.
 
+The class provides the following methods:
+
+1. setSender(Camera src, int destx, int desty): Sets the source camera and destination coordinates for rendering.
+2. Simulator(): Constructor for the Simulator class, which sets the background color.
+3. getList(): Returns the list of cameras in the simulator.
+4. removeAll(): Removes all cameras from the simulator and repaints the component.
+5. paintComponent(Graphics g1): Overrides the paintComponent method to render the simulator. It draws rectangles representing different cloud levels and renders the cameras based on the option value. If the option is 1, it also draws a dashed line from the source camera to the destination coordinates.
+
+The purpose of this class is to provide a visual representation of the camera network simulation, allowing for rendering of cameras and their connections based on the specified options.
+*/
+package com;
 import java.awt.Dimension;
 import javax.swing.JComponent;
 import java.awt.geom.Rectangle2D;
@@ -108,19 +122,3 @@ public class Simulator extends JComponent {
         }
     }
 }
-
-/*
-Summary:
-The Simulator class extends the JComponent class and is responsible for rendering the simulation of a network of cameras.
-It contains an ArrayList of Camera objects and various properties related to rendering, such as line styles and colors.
-
-The class provides the following methods:
-
-1. setSender(Camera src, int destx, int desty): Sets the source camera and destination coordinates for rendering.
-2. Simulator(): Constructor for the Simulator class, which sets the background color.
-3. getList(): Returns the list of cameras in the simulator.
-4. removeAll(): Removes all cameras from the simulator and repaints the component.
-5. paintComponent(Graphics g1): Overrides the paintComponent method to render the simulator. It draws rectangles representing different cloud levels and renders the cameras based on the option value. If the option is 1, it also draws a dashed line from the source camera to the destination coordinates.
-
-The purpose of this class is to provide a visual representation of the camera network simulation, allowing for rendering of cameras and their connections based on the specified options.
-*/

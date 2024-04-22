@@ -1,5 +1,10 @@
-package com;
+// Summary:
+// The Chart class extends ApplicationFrame and is responsible for creating and displaying a bar chart. 
+// It includes methods to create datasets from existing and proposed technique costs, create a bar chart with customizations, and handle window closing events.
+// The class also includes a method to create a demo panel containing the chart.
 
+
+package com;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GradientPaint;
@@ -98,7 +103,3 @@ public class Chart extends ApplicationFrame {
     }
 }
 
-// Summary:
-// The Chart class extends ApplicationFrame and is responsible for creating and displaying a bar chart. 
-// It includes methods to create datasets from existing and proposed technique costs, create a bar chart with customizations, and handle window closing events.
-// The class also includes a method to create a demo panel containing the chart.

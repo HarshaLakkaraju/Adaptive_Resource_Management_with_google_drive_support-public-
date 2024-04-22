@@ -1,5 +1,16 @@
- package com;
-
+ /*
+ Summary:
+ The ShowNetwork class is a Java Swing application that provides a user interface for managing and simulating a network of cameras. It extends the JFrame class and creates various UI components such as panels, buttons, and labels. The main functionality includes:
+ 
+ 1. Displaying a simulation panel (Simulator) for visualizing the camera network.
+ 2. Providing buttons for starting video analysis, starting the simulation, displaying a cost graph, and exiting the application.
+ 3. Handling button click events to initiate the corresponding actions, such as playing a video, starting a simulation thread, or creating a chart.
+ 4. Setting up the layout and appearance of the UI components.
+ 5. Initializing the camera network by calling the CameraPlacement.randomNodes method with the provided parameters.
+ 
+ The purpose of this class is to provide a graphical user interface for managing and visualizing a camera network simulation, allowing users to perform various tasks such as video analysis, simulation, and cost analysis.
+ */
+package com;
  import javax.swing.JFrame;
  import javax.swing.JPanel;
  import java.util.ArrayList;
@@ -115,15 +126,3 @@
 		 }
  }
  
- /*
- Summary:
- The ShowNetwork class is a Java Swing application that provides a user interface for managing and simulating a network of cameras. It extends the JFrame class and creates various UI components such as panels, buttons, and labels. The main functionality includes:
- 
- 1. Displaying a simulation panel (Simulator) for visualizing the camera network.
- 2. Providing buttons for starting video analysis, starting the simulation, displaying a cost graph, and exiting the application.
- 3. Handling button click events to initiate the corresponding actions, such as playing a video, starting a simulation thread, or creating a chart.
- 4. Setting up the layout and appearance of the UI components.
- 5. Initializing the camera network by calling the CameraPlacement.randomNodes method with the provided parameters.
- 
- The purpose of this class is to provide a graphical user interface for managing and visualizing a camera network simulation, allowing users to perform various tasks such as video analysis, simulation, and cost analysis.
- */

@@ -1,5 +1,8 @@
+// Summary: 
+// The Camera class represents a camera in a graphical application. It stores the camera's center point coordinates, diameter, and name or identifier. 
+// The class provides methods to set and retrieve these properties and includes methods to draw the camera's graphical representation using a Graphics object. 
+// The `draw` method allows drawing either a filled or an empty oval shape, depending on the provided option.
 package com;
-
 import java.awt.Point;
 import java.awt.Graphics;
 import java.awt.Color;
@@ -93,8 +96,3 @@ public class Camera {
         }
     }
 }
-// Summary: 
-// The Camera class represents a camera in a graphical application. It stores the camera's center point coordinates, diameter, and name or identifier. 
-// Additionally, it has an integer variable `xx`, whose purpose is unclear from the code. 
-// The class provides methods to set and retrieve these properties and includes methods to draw the camera's graphical representation using a Graphics object. 
-// The `draw` method allows drawing either a filled or an empty oval shape, depending on the provided option.
